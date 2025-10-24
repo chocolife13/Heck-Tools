@@ -1,46 +1,64 @@
-html{
+html {
     background-color: rgb(24, 23, 23);
     text-align: center;
     margin-bottom: 10px;
-
 }
 
-h1{
+h1 {
     color: rgb(82, 180, 17);
-   
     display: inline-block;
     padding: 10 0 10 0px;
     font-family: sans-serif;
 }
 
-
-
-h3{
+h3 {
     color: rgb(92, 185, 30);
     font-family: sans-serif;    
 }
 
-
-a{
+a {
     color: rgb(71, 138, 26);
-    font-family:'Courier New', Courier, monospace ;
+    font-family: 'Courier New', Courier, monospace;
     font-size: medium;
 }
 
-pre{
-    color: green;
-    display: inline-block;
-}
-a:hover{
+a:hover {
     color: rgb(100, 216, 22);
     font-size: large;
 }
 
-footer{
+pre {
+    color: green;
     display: inline-block;
-      text-align: left;
 }
 
-footeryupi{
- color: green;
+footer {
+    display: inline-block;
+    text-align: left;
+}
+
+footeryupi {
+    color: green;
+}
+
+/* Bouton flottant pour l'extension */
+.download-extension {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(82, 180, 17, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s, background-color 0.2s;
+    z-index: 9999;
+}
+
+.download-extension:hover {
+    background-color: rgba(100, 216, 22, 0.9);
+    transform: scale(1.1);
 }
